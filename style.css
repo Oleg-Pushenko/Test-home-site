@@ -1,0 +1,580 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    min-width: 320px;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 3em;
+}
+p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+/***HEADER***/
+header {
+    background-image: url(image/jared-sluyter-342881.png);
+    background-size: 100%;
+    min-height: 660px;
+    width: 100%;
+}
+.logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    padding: 40px 0 0 30px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #484240;
+    font-size: 1.2em;
+    margin-right: 40px;
+    padding: 40px 0 40px 0;
+}
+.menu a:hover {
+    color: white;
+    border-bottom: 5px solid #00B6D4;
+    padding-bottom: 35px;
+}
+.menu-mobile {
+    display: none;
+}
+.find-help {
+    padding: 80px 0 0 40px;
+    width: 40%;
+}
+.find-help h1::after {
+    content: "help";
+    border-bottom: 5px solid #00B6D4;
+    padding-bottom: 20px;
+}
+.find-help p {
+    margin-top: 40px;
+}
+.find-help button {
+    margin-top: 30px;
+    background-color: #F3AB6B;
+    color: white;
+    font-size: 1.2em;
+    width: 65%;
+    height: 70px;
+    border: 0;
+    border-bottom: 10px solid #CA8F57;
+}
+
+
+/***PARTNERS***/
+.partners {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.partners img {
+    width: 13%;
+    display: block;
+    margin: 25px 25px 25px 0;
+}
+
+
+/***AGE***/
+.Age {
+    background-image: url(image/Vector%20Smart%20Object.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #00B6D4;
+    background-size: 70%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 10% 0 10%;
+}
+
+
+/***MBIS-IS-FOR***/
+.mbis-is-for {
+    padding: 72px 17%;
+    text-align: center;
+}
+.mbis-is-for h2 {
+    color: #787878;
+    font-size: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+}
+.mbis-is-for p {
+    color: black;
+    font-size: 0.9em;
+}
+.mbis-is-for button {
+    margin-top: 30px;
+    background-color: #F3AB6B;
+    color: white;
+    font-size: 1.2em;
+    width: 40%;
+    height: 70px;
+    border: 0;
+    border-bottom: 10px solid #CA8F57;
+}
+
+
+/***IN-HOME-SUPPORT***/
+.in-home-support {
+    background-color: #0098C8;
+    background-image: url(image/Layer-2.png);
+    background-size: 100%;
+    min-height: 710px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-image {
+    z-index: 2;
+}
+.slider-image img:hover {
+    transform: rotate(7deg);
+}
+.white-bg-block {
+    background-color: white;
+    width: 100%;
+    height: 134px;
+    margin-top: -60px;
+    z-index: 0;
+}
+
+
+/***JOIN-OUR-TEAM***/
+.join-our-team {
+    min-height: 440px;
+    display: flex;
+    flex-direction: row;
+}
+.fine-team {
+    width: 50%;
+}
+.fine-team img {
+    width: 100%;
+    height: 100%;
+}
+.info-join {
+    background-color: #0079B8;
+    width: 50%;
+}
+.info-join p,
+.info-join h1 {
+    margin-left: 30px;
+    width: 85%;;
+}
+.info-join h1::after {
+    content: "Team.";
+    border-bottom: 5px solid #00B6D4;
+    padding-bottom: 5px;
+}
+.info-join p {
+    font-size: 0.9em;
+}
+.info-join button {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #F3AB6B;
+    color: white;
+    font-size: 1.2em;
+    width: 45%;
+    height: 70px;
+    border: 0;
+    border-bottom: 10px solid #CA8F57;
+}
+
+
+/***FOOTER***/
+footer {
+    min-height: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.empty-visual-block {
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid #CDCDCD;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-menu a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2em;
+    padding: 40px;
+    font-weight: bold;
+}
+.footer-menu a:hover {
+    color: #F4B072;
+}
+.empty-icon {
+    display: flex;
+    justify-content: center;
+}
+.empty-icon a {
+    margin: 20px 25px 30px 0;
+    width: 12px;
+    height: 12px;
+    background-color: lightgray;
+}
+.empty-icon a:hover {
+    background-color: #F4B072;
+}
+.adress-number-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adress-number-email p{
+    color: #B0B0B0;
+    margin: 5px 0px;
+}
+.adress-number-email a{
+    color: #F4B072;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sub-footer {
+    border-top: 3px solid #F6F6F6;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.sub-footer p {
+    margin-top: 30px;
+    color: #D3D3D3;
+    font-size: 0.9em;
+}
+
+
+/***ADAPTATION***/
+@media screen and (max-width:1250px){
+    header {
+        background-size: 105%;
+    }
+}
+@media screen and (max-width:1150px){
+    header {
+        background-size: 125%;
+    }
+    .menu a {
+        font-size: 1.5em;
+    }
+    .find-help p {
+        font-size: 1.5em;
+    }
+    .Age p {
+        font-size: 1.5em;
+    }
+    .mbis-is-for h2 {
+        font-size: 1.9em;
+    }
+    .mbis-is-for p {
+        font-size: 1.5em;
+    }
+    .info-join p {
+        font-size: 1.3em;
+    }
+    .footer-menu a {
+        font-size: 1.5em;
+    }
+    .adress-number-email p {
+        font-size: 1.5em;
+    }
+    .sub-footer p {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:840px){
+    header {
+        background-size: 160%;
+        background-position: center;
+    }
+    .logo img {
+        width: 300px;
+    }
+    .find-help h1{
+        margin-top: 0px;
+    }
+    .join-our-team {
+        flex-direction: column;
+    }
+    .fine-team {
+        width: 100%;
+    }
+    .info-join {
+        width: 100%;
+        height: 500px;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-mobile ul {
+        margin: 0;
+        list-style: none;
+        padding-left: 20px;
+        display: none;
+    }
+    .menu-mobile.open ul {
+        display: block;
+        position: absolute;
+        background-color: rgb(0,0,0, 0.7);
+        margin-top: -87px;
+        margin-left: -35%;
+        width: 30%;
+        height: 240px;
+        font-size: 2.5em;
+        color: white;
+        line-height: 2em;
+    }
+    .menu-mobile {
+        display: block;
+        margin: 20px 3% 0 0;
+    }
+    .menu-mobile span {
+        display: block;    
+        width: 60px;
+        height: 10px;
+        border-radius: 30px;
+        background-color: white;
+        margin: 10px;
+    }
+    .in-home-support {
+        min-height: 200px;
+    }
+    .slider-image {
+        margin-top: 40px;
+    }
+    .slider-image img {
+        width: 70%;
+        margin-left: 14%;
+    }
+}
+@media screen and (max-width:756px){
+    header {
+        background-size: 190%;
+    }
+    .menu-mobile ul {
+        margin: 0;
+        list-style: none;
+        padding-left: 20px;
+        display: none;
+    }
+    .menu-mobile.open ul {
+        margin-top: -87px;
+        margin-left: -77%;
+        width: 60%;
+        height: 240px;
+        font-size: 2.5em;
+        font-weight: bold;
+        color: white;
+        line-height: 2em;
+    }
+    .logo {
+        padding-left: 10px;
+    }
+    .find-help {
+        padding-left: 10px;
+    }
+    .find-help h1 {
+        font-size: 2.5em;
+    }
+    .find-help p {
+        font-size: 1.3em;
+    }
+    .find-help button {
+        width: 80%;
+    }
+    .partners img{
+        width: 10%;
+    }
+    .Age {
+        min-height: 400px;
+        padding-top: 30px;
+    }
+    .mbis-is-for {
+        padding: 20px;
+    }
+    .info-join p{
+        font-size: 1.5em;
+    }
+    .footer-menu a {
+        font-size: 1.2em;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    header {
+        background-size: 220%;
+    }
+    .find-help h1 {
+        width: 130%;
+    }
+    .partners img{
+        width: 15%;
+        margin: 5px 5px 5px -20px;
+    }
+    .Age h1{
+        font-size: 2em;
+    }
+    .info-join p{
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:500px){
+    header {
+        background-size: 300%;
+    }
+    .logo img {
+        width: 90%;
+    }
+    .find-help {
+        padding-top: 10px;
+    }
+    .find-help h1 {
+        width: 160%;
+    }
+    .find-help button {
+        width: 100%;
+    }
+    .in-home-support h1 {
+        font-size: 2.5em;
+    }
+    .info-join {
+        min-height: 600px;
+    }
+    .footer-menu a {
+        font-size: 1em;
+    }
+    .adress-number-email p {
+        font-size: 1.2em;
+    }
+    .sub-footer p {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:500px){
+    header {
+        background-size: 320%;
+    }  
+    .find-help h1 {
+        width: 180%;
+    }
+    .Age {
+        min-height: 350px;
+    }
+    .Age h1 {
+        font-size: 1.5em;
+    }
+    .Age p {
+        font-size: 1.2em;
+    }
+    .mbis-is-for p {
+        font-size: 1.2em;
+    }
+    .mbis-is-for button {
+        width: 80%;
+    }
+    .in-home-support {
+        min-height: 300px;
+    }
+    .in-home-support h1 {
+        font-size: 2em;
+    }
+    .info-join h1 {
+        font-size: 2.2em;
+    }
+    .adress-number-email p {
+        font-size: 1em;
+    }
+    .sub-footer p {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:370px){
+    header {
+        background-size: 340%;
+    }
+    .menu-mobile.open ul {
+        margin-top: -87px;
+        margin-left: -74%;
+    }
+    .find-help button {
+        width: 140%;
+    }
+    .info-join button {
+        width: 80%;
+    }
+    .footer-menu a {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:330px){
+    header {
+        background-size: 400%;
+    }
+    .menu-mobile.open ul {
+        margin-top: -54px;
+        margin-left: -80%;
+    }
+    .logo {
+        padding-top: 30px;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .find-help h1 {
+        width: 200%;
+    }
+    .find-help p {
+        font-size: 1.3em;
+    }
+    .find-help button {
+        width: 140%;
+    }
+    .info-join button {
+        width: 80%;
+    }
+    .footer-menu a {
+        font-size: 0.7em;
+    }
+    .menu-mobile {
+        margin: 20px 3% 0 0;
+    }
+    .menu-mobile span {    
+        width: 40px;
+        height: 6px;
+        margin: 5px;
+    }
+}
+@media screen and (min-width:1250px){
+    .find-help button {
+        margin-top: 100px;
+    }
+    header {
+        background-position: center;
+        background-size: 100%;
+    }
+}
